@@ -1,0 +1,21 @@
+ID	Face	carotenoides
+Aroeira	1	19.74634255
+Azeitona	1	26.86189407
+Baba_de_boi	1	21.63440127
+Paineira	1	23.33416744
+Taruma_norte	26.06363701
+Vinhático	1	22.67930808
+Embauba_norte	23.39331675
+Guapuruvu	1	17.25177244
+Jenipapo	1	26.08977348
+Aroeira	sul	12.35848498
+Azeitona	2	14.59647302
+Baba_de_boi	2	14.18984362
+Paineira	2	17.26286571
+Orelha_sul	28.86191746
+Guanandi	2	19.52665656
+Pau_d_alho	2	21.34466505
+Tarumã_sul	22.47957177
+Guapuruvu	2	16.7268324
+Embauba_sul	22.22510777
+Jenipapo	2	24.45486343
