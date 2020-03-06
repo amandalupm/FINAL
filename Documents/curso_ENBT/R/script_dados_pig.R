@@ -4,7 +4,8 @@
 #-----------------------------------------------------------#
 
 #criando o objeto; As faces norte e sul foram substituídas por #valores númericos de 1 e 2, respectivamente
-dados <- read.table("data/dados_pigmentos.txt")
+dados <- read.table("data/tabela_dados.txt", h=T)
+View(dados)
 
 #lendo os dados
 dados
@@ -13,12 +14,15 @@ dados
 
 library(ggplot2)
 
-dados$X <- as.factor("dados$x")
-
-#exportanto os arquivos em formato PNG
-
-png("figs/figura_01.png, res = 300, width = 2400, height = 1200")
+dados$X <- as.factor(dados$x)
 
 #gerando o plot
 
-ggplot("dados, aes (x = X, y = y, fill = slopes)") + geom_boxplot() + theme_classic() + ggtitle("") + xlab("especies") + ylab("faces") + scale_fill_brewer(palette = "red")
+ggplot(dados, aes (x = x, y = y, fill = face)) + geom_boxplot() + theme_classic() + ggtitle("") + xlab("especies") + ylab("valores de carotenoides")
+
+
+pigm_ANOVA_twoway<-aov(y~face, data=dados)
+anova(pigm_ANOVA_twoway)
+
+# O valor de p= 0.006 para as faces
+
