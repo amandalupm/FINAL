@@ -1,0 +1,26 @@
+---
+title: "Fotoquímica"
+author: "Amanda"
+date: "16 de março de 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introdução
+A perda da biodiversidade da Mata Alântica vem se agravando com o passar dos tempos, estudos estão sendo realizados com o intuito de preservar este bioma. Entretando o ponto chave em um projeto de restauração é a escolha das espécies para o sucesso de um plantio. Devido a importância do sucesso do estabelecimento das plantas em fase inicial de um projeto de restauração, faz-se importante o estudo dos efeitos das variações microclimáticas sobre os índices de eficiência fotoquímica e trocas gasosas. Uma vez conhecendo como os fatores ambientais afetam os índices, poderá ser feita uma escolha de quais espécies são mais resistentes para potencializar o início de um plantio. 
+Um dos principais objetivos da ecologia vegetal é entender como as plantas estão interagindo com o meio em que elas vivem. Características intrínsecas fisiológicas das espécies podem mudar nas respostas das plantas com o meio, assim como as características do meio contribuem com a distribuição das plantas. As variações ambientais podem levar a constantes mudanças na maquinaria fotossintética da planta, com isso é importante estudar os atributos relacionados ao desempenho fotossintético das plantas de projetos de restauração em fase inicial de sucessão com a finalidade de conhecer as espécies mais tolerantes aos estresses ambientais iniciais. O conhecimento sobre o desempenho e a relação das espécies com o meio afeta diretamente os programas de reflorestamento que têm como objetivo o aumento eficiente da biodiversidade do ecossistema.
+Fluorescência da clorofila a indica processos fotoquímico da fotossíntese, em plantas que estão sob condições de sombreamento tendem a apresentar maior rendimento quântico do fotossistema II – FSII (FV/FM) uma vez que esses indivíduos não estarão em estresse luminoso. Estudos que envolvem fluorescência da clorofila a, são importantes na fisiologia do estresse das plantas, fornecendo informações sobre a maquinaria fotossintética, sob condições de estresse principalmente o luminoso.
+
+## Hipótese
+As faces irão diferir, pois o valor de Fv.Fm varia em relação a irradiância, maiores valor de irradiância fazem com que as plantas apresentem menores valores de Fv.Fm, ou seja, que elas entrem em fotoinibição, já as espécies nas faces de menor irradiância, irão apresentar valores maiores para Fv.Fm, não apresentando fotoinibição.
+
+
+## Resultado
+Na análise realizada, pode-se observar que não houve diferença significativa das espécies em relação ao Fv.Fm entre as faces (Norte e Sul), mostrando que as mesmas não diferem em relação a irradiância. Entretando, as espécies apresentaram diferença significativa em relação ao Fv.Fm. Isso mostra que as espécies têm diferença de suportar as condições iniciais em uma área de reflorestamento, as espécies que apresentaram os maiores valores são as espécies classificadas como iniciais (Cotieira, Aroeira, Guapuruvu, Embaúba), as espécies que apresentaram menores valores uma é tardia (Genipa) e a outra é piorneira (Cordia). Uma explicação, é que essas espécies podem ser classificadas como espécies menos plásticas para o ínicio de um plantio em morrote, uma vez que o valor dessas passa de (0.70), um valor relevante para inibição desse parâmetro, já as demais que estão entre os valores (0,70 a 0,85), são espécies que não se encontram em estresse em relação ao rendimento quantico máximo do fotossistema II, sendo classificadas como espécies plasticas para serem plantadas em um projeto de restauração em estágio inicial.
+![Figura 1: Rendimento quantico máximo do fotossistema II](../figs/Imagem_trabalhada.tif)
+
+## Conclusão
+Com esses resultados é possível observar que existem espécies mais plásticas que outras para suportar ao estresse inicial de um projeto de restauração, sendo considerado espécies ótimas, aquelas que estão com valores de (0,70 a 0,85), e sendo menos considerado as espécies com valores abaixo do 0,70.
